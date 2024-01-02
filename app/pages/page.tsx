@@ -22,7 +22,7 @@ function render(build, data) {
   // Define the UI using JSX-like syntax
   let ui = (
     <div>
-      <h1 class="text-4xl bg-red-400">Test</h1>
+      <h1 class="text-4xl bg-red-400">asdf</h1>
       <button
         onclick={() => {
           // Increase the number of cookies and re-render the UI when the button is clicked
