@@ -1,5 +1,7 @@
 # Subatomic 
 
+This is the typescript version of SubatomicJS
+
 Subatomic is the world's minimalistic JS framework
 
  - **No unnecessary features**: Subatomic does not contain nor never will contain bloatware or any non-necessary features. 
