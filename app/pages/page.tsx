@@ -2,7 +2,7 @@
 import React from "../../createElement.js";
 
 // Initialize an empty variables object
-let variables = {};
+let variables: {} = {};
 
 // Define a function to handle changes in the input field
 function handleChange(event) {
@@ -27,7 +27,7 @@ function render(build, data) {
         onclick={() => {
           // Increase the number of cookies and re-render the UI when the button is clicked
           variables.cookies++;
-          render();
+          render(false, variables);
         }}
       >
         press me
